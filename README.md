@@ -1,0 +1,2 @@
+# nodesample
+ for Docker deployment
