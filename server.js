@@ -14,7 +14,7 @@ var port = process.env.PORT || 3000;
 
 router.get('/Hello', function(req, res) {
     var envName = `${process.env.FIRSTNAME} ${process.env.LASTNAME}`;
-    res.json({ message: 'Hello docker-compose!', name:  envName});   
+    res.json({ message: 'Hello docker-hub!', name:  envName});   
 });
 
 router.post('/Post', (req,res) => {
