@@ -17,7 +17,7 @@ router.get('/Hello', function(req, res) {
     res.json({ message: 'Hello Drix!', name:  envName}); 
     //Comment JPJ
     res.json({ message: 'Hello Drix!', name:  envName});   
-    // Comment Drix
+    // Comment Chester
 });
 
 router.post('/Post', (req,res) => {
