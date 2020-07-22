@@ -19,8 +19,7 @@ router.get('/Hello', function(req, res) {
     // Comment Chester
     // Comment Quinn
     //komint Nowel
-    //Keneth
-    //comment Drix
+    // Mart Cute
 });
 
 router.post('/Post', (req,res) => {
@@ -30,3 +29,4 @@ router.post('/Post', (req,res) => {
 
 app.listen(port);
 console.log(`API is listening to port: ${port}`);
+
