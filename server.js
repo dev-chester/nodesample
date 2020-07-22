@@ -18,7 +18,8 @@ router.get('/Hello', function(req, res) {
     //Comment JPJ  
     // Comment Chester
     // Comment Quinn
-    //Keneth Pogi
+    //komint Nowel
+    //Keneth
 });
 
 router.post('/Post', (req,res) => {
