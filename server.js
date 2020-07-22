@@ -11,15 +11,16 @@ app.use(bodyParser.json());
 app.use('/api', router);
 
 var port = process.env.PORT || 3000;
-
+// https://nodesample.herokuapp.app/api/Hello
 router.get('/Hello', function(req, res) {
     var envName = `${process.env.FIRSTNAME} ${process.env.LASTNAME}`;
-    res.json({ message: 'Hello Drix!', name:  envName}); 
+    res.json({ message: 'Hello Chester!', name:  envName}); 
     //Comment JPJ  
     // Comment Chester
     // Comment Quinn
     //komint Nowel
-    // Mart Cute
+    //Keneth
+    //comment Drix
 });
 
 router.post('/Post', (req,res) => {
@@ -29,4 +30,3 @@ router.post('/Post', (req,res) => {
 
 app.listen(port);
 console.log(`API is listening to port: ${port}`);
-
